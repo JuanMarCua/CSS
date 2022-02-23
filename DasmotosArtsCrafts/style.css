@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  height: 200px;
+  top: 0;
+}
+
+header .title {
+  font-family: Helvetica;
+  font-size: 75px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+
+main {
+  text-align: left;
+  position: relative;
+  top: 200px;
+}
+
+.semiTitle {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.semiTitle .brush {
+  background-color: mediumspringgreen;
+  padding-left: 1%; 
+}
+
+.semiTitle .frames {
+  background-color: lightcoral;
+  padding-left: 1%; 
+}
+
+.semiTitle .paint {
+  background-color: skyblue;
+  padding-left: 1%; 
+}
+
+.image {
+  margin-left: 1%;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-left: 1%;
+}
+
+p {
+  margin-left: 1%;
+  font-family: Helvetica;
+}
+
+.price {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+footer {
+  background-color: #333;
+  height: 100px;
+  position: relative;
+  width: 100%;
+  margin-top: 250px;
+}
+
+footer h5{
+  margin: auto;
+  font-family: Georgia;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  line-height: 100px;
+}
